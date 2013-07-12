@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 permalink: /:title
 name: traxmaxx.io
+description: traxmaxx.io Blog
+url: http://traxmaxx.io
