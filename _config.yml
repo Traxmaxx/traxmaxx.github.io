@@ -1,0 +1,5 @@
+safe: true
+markdown: redcarpet
+pygments: true
+permalink: /:title
+name: traxmaxx.io
