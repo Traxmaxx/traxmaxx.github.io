@@ -17,32 +17,45 @@
   </head>
   <body>
     <main>
-      <header>
+      <header class="main">
         <h1>traxmaxx.io</h1>
         <p></p>
 
 
         <p class="view">
-          <a href="https://github.com/Traxmaxx"><span class="ss-icon">githuboctocat</span> <small>github.com</small></a>
+          <a href="https://github.com/Traxmaxx"><span class="ss-icon">githuboctocat</span></a>
+          <a href="https://alpha.app.net/traxmaxx"><span class="ss-icon">appnet</span></a>
+          <a href="https://www.quora.com/Alexander-R%C3%B6sel"><span class="ss-icon">quora</span></a>
         </p>
 
         <p class="view">
-          <a href="https://alpha.app.net/traxmaxx"><span class="ss-icon">appnet</span> <small>app.net</small></a>
+          Web Developer working with Ruby on Rails and APIs
         </p>
 
         <p class="view">
-          <a href="https://www.quora.com/Alexander-R%C3%B6sel"><span class="ss-icon">quora</span> <small>quora.com</small></a>
+          <small>Co-Founder at <a href="http://apitrary.com">apitrary</a></small><br>
+          <small>Web Developer at <a href="http://meltwater.github.io/">Meltwater</a></small>
         </p>
 
       </header>
       <section>
         {{content}}
       </section>
-      <footer>
+      <footer class="main">
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </main>
     <script src="js/scale.fix.js"></script>
+    <script>
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'traxmaxx'; // required: replace example with your forum shortname
 
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
   </body>
 </html>
